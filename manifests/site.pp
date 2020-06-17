@@ -3,7 +3,7 @@
   file { '/root/PUPPET' :
   ensure  => file,
   content => 'welcome to puppet world',
-  owner => dinesh,
-  mode => '0600',
+  owner   => dinesh,
+  mode    => '0600',
   }
 }
