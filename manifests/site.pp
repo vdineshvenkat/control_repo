@@ -7,9 +7,9 @@ include role::master_server
 
 
 node /^web/ {
- incdlude role::app_server
+ include role::app_server
 }
 
 node /^db/ {
- incdlude role::db_server
+ include role::db_server
 }
