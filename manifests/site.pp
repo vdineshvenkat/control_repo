@@ -2,7 +2,11 @@ node default{
 }
 
 node 'centos7' {
-include role::master_server
+ include role::master_server
+ file {'/root/README':
+  ensure => file,
+  content => $fqdn,
+ }
 }
 
 
