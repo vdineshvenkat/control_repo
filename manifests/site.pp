@@ -4,6 +4,6 @@
   ensure  => file,
   content => 'welcome to puppet world',
   owner => dinesh,
-  mode => 0600,,
+  mode => 0600,
   }
 }
