@@ -6,6 +6,7 @@ node 'centos7' {
  file {'/root/README':
   ensure => file,
   content => $fqdn,
+  
  }
 }
 
