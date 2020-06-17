@@ -5,7 +5,7 @@ node 'centos7' {
  include role::master_server
  file {'/root/README':
   ensure => file,
-  content => "$fqdn"\n,
+  content => $fqdn,
   }
 }
 
